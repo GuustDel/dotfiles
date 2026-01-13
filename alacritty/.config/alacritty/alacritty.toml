@@ -25,6 +25,26 @@ family = "MesloLGS Nerd Font Mono"
 style = "Regular"
 
 [window]
-opacity = 0.9
+opacity = 0.8
 padding.x = 15
 padding.y = 15
+
+[[keyboard.bindings]]
+key = "Equals"
+mods = "Control|Shift"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Plus"
+mods = "Control|Shift"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Minus"
+mods = "Control|Shift"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Key0"
+mods = "Control|Shift"
+action = "ResetFontSize"

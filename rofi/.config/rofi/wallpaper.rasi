@@ -1,0 +1,17 @@
+@import "~/.config/rofi/config.rasi"
+
+element-icon {
+    size: 64;                  // enlarge thumbnails
+    horizontal-align: 0.5;     // center icon horizontally
+    vertical-align: 0.5;       // center icon vertically
+}
+
+element-text {
+    vertical-align: 0.5;       // align text with icon
+}
+
+listview {
+    spacing: 8;
+    lines: 5;
+    fixed-height: true;
+    }

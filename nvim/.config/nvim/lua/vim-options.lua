@@ -1,0 +1,12 @@
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.termguicolors = true
+vim.opt.fillchars:append({ eob = "~" })
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.expandtab = true
+vim.opt.wrap = false
+vim.opt.linebreak = false
+vim.opt.sidescroll = 1
+vim.opt.sidescrolloff = 8
